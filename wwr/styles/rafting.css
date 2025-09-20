@@ -39,7 +39,7 @@ h1 {
     color: #fff;
 }
 
-h1 article {
+.hero h1, article {
     position: absolute;
 
 }
@@ -71,4 +71,3 @@ article {
     float: right;
     width: 125px;
 }
-

@@ -71,3 +71,8 @@ article {
     float: right;
     width: 125px;
 }
+
+nav img {
+    width: 50px;
+    height: auto;
+}

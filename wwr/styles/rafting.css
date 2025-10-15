@@ -13,6 +13,21 @@
     box-sizing: border-box;
 }
 
+.about-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 20%);
+    gap: 40px;
+}
+
+.nav_bar {
+    grid-row: 1 / 2;
+}
+
+.hero {
+
+}
+
 header {
     padding: 1rem auto;
     margin: auto;
@@ -24,10 +39,10 @@ header {
     display: flex;
 }
 
-header img {
+/* header img {
     padding: 2rem 0 2rem 100px;
-    /* margin: auto; */
-}
+    margin: auto;
+} */
 
 .navigation {
     align-items: right;
@@ -47,9 +62,9 @@ header img {
     font-size: 1.2rem;
 }
 
-.hero {
+/* .hero {
     position: relative;
-}
+} */
 
 .hero img {
     display: block;

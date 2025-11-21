@@ -54,14 +54,13 @@ h1 {
     color: #fff;
 }
 
-
-article {
+.hero article {
     position: absolute;
-    top: 95px;
+    bottom: 16px;
     width: auto;
     padding: 16px;
     text-align: left;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     color: #000;
 }
 

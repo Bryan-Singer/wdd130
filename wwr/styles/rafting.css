@@ -139,7 +139,7 @@ h1 {
 
 #adventure #images img {
     height: 100px;
-    width: 1fr;
+    width: auto;
 }
 
 #adventure .images img figure figcaption {

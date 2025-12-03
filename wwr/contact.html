@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius et doloribus assumenda dolorem sapiente ad fugit, doloremque consectetur? Vero consectetur dolor hic reiciendis sint pariatur unde saepe obcaecati sed deleniti.">
+    <meta name="author" content="Bryan Singer">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact WWR</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo.png" alt="The white water rafting site logo.">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <h2>White Water Rafting Company</h2>
+            <p>123 Main River Street</p>
+            <p>Jacksonville, Florida</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater</p>
+        </div>
+
+        <div class="submit">
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d64287.01139509021!2d-81.68839907511625!3d28.579424559904684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20water%20rafting!5e0!3m2!1sen!2sus!4v1764788860766!5m2!1sen!2sus"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form>
+
+                <div id="query">
+
+                    <div class="form-item column2">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Bryan Bob" required>
+                    </div>
+
+                    <div class="form-item column2">
+                        <label for="useremail">Email</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="guy@email.com" required>
+                    </div>
+
+                    <div class="form-item column2 rows">
+                        <p>Message Purpose</p>
+                        <div class="selections">
+                            <div id="one">
+                                <input type="radio" id="inquiry" name="purpose" value="General Inquiry">
+                                <label for="inquiry">General Inquiry</label>
+                            </div>
+                            <div id="two">
+                                <input type="radio" id="question" name="purpose" value="Reservation Question">
+                                <label for="question">Reservation Question</label>
+                            </div>
+                            <div id="three">
+                                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                                <label for="suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-item textarea">
+                        <label for="feedback">Message</label>
+                        <textarea id="feedback" name="feedback" rows="2" placeholder="Type here"></textarea>
+                    </div>
+
+                    <div class="form-item column1">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+
+                    <button type="submit">Get In Touch</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy;2025 White Water Rafting Company | Bryan Singer</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-logo.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta-logo.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

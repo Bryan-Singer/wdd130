@@ -67,7 +67,7 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -162,7 +162,7 @@ h1 {
     margin: 2rem;
 }
 
-.contact h2 {
+.contact h1 {
     text-align: center;
     margin: 1rem;
     padding-bottom: 20px;
@@ -236,7 +236,7 @@ form {
 
 label {
     text-align: left;
-    grid-column: 0 / 1;
+    grid-column: 1;
 }
 
 .textarea label {

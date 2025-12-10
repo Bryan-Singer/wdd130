@@ -2,50 +2,99 @@
 <html lang="en">
 
 <head>
-    <title>Bryan Singer | WDD 130</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="A man made a webpage about his interests. Pictured with his wife and dog in their new apartment, he discusses his love for them. A picture of Florida also has the description of his home.">
+        content="Here, find at a glance all the necessary information about the White Water Rafting Company. This includes details on what to expect on your adventure, a history of the company and sport, and and further glimpses into the possibilities of rafting with the company.">
     <meta name="author" content="Bryan Singer">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>About WWR</title>
 </head>
-
-
 
 <body>
     <header>
+        <img src="images/wwr-logo.png" alt="The white water rafting site logo.">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/about.html">Rafting Website</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <div class="grid">
-        <main>
-            <h1>Bryan Singer | WDD 130</h1>
 
-            <img src="../images/profile-maddie-bryan-winter.JPG" alt="A picture of a man, his wife, and his funny dog."
-                width="200">
+    <main>
+        <div class="hero">
+            <img src="images/rafting-hero.jpg" alt="A group of happy whit ewater rafters">
+            <h1>The White Water Rafting Company</h1>
+            <article>
+                <img src="images/rafting-smaller.jpg" alt="A happy white water rafting customer">
+                <p>
+                    The world famous White Water Rafting Company is the first white water rafting company to be found
+                    between dimensions. Expect the unexpect with our trips taking you to the far reaches of space, the
+                    humble rennaisance, and more! Dive deeper into our improved website.
+                </p>
+            </article>
+        </div>
+        <section id="history">
+            <h2>History</h2>
+            <img src="images/history-water-rafting.jpg" alt="Here we see the history of white water rafting.">
+            <div class="body1">
+                <p class="one">The WWRC found it's home in a nook between the world you call earth and the space between
+                    spaces several hundred years ago. It wasn't until recently we were able to create tunnels to other
+                    realities safely for long enough that we could open our doors to you and allow other dimensional
+                    guests experience just what the multiverse has to offer.</p>
+                <p class="two">Pictured here, a group of the seventh test run of the Halley's Comet Circuit enjoy the
+                    monochrome sights and low gravity thrill of with none of the atmosphere. It was tests like these
+                    that
+                    paved the road for our 3,427th test to be the first succesful run of an interstellar body. Due to
+                    the
+                    laws of time between dimensions, we honor their sacrifice everyday.</p>
+            </div>
+        </section>
+        <section id="adventure">
+            <h2>Adventure Awaits You!</h2>
+            <div id="images">
+                <figure>
+                    <img src="images/adventure3-water-rafting.jpg" alt="none">
+                    <figcaption>Careen off terrifying heights on the smallest planet ever</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure1-water-rafting.jpg" alt="none">
+                    <figcaption>Travel between the tiles of a giants floor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4-water-rafting.jpg" alt="none">
+                    <figcaption>Work as a team to escape the terrible heat of KELT-9b</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2-water-rafting.jpg" alt="none">
+                    <figcaption>Escape to lands lost and found and lost again</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5-water-rafting.jpg" alt="none">
+                    <figcaption>Remember your past in the time-locked labrinth of Cygnus X-1</figcaption>
+                </figure>
+            </div>
+            <form>
+                <label>Heed the call to action...</label>
+                <button type="submit" formaction="trips.html">Find Out More HERE!</button>
+            </form>
+        </section>
+    </main>
 
-            <p>
-                I am a Star Wars fan and Dungeons and Dragons enthusiast without
-                any money to go with it. I am 26 years old with a beautiful wife
-                and yes this may be an old picture but it still pretty much looks
-                like me.
-            </p>
-        </main>
-        <aside class="box">
-            <h2>Florida, United States of America</h2>
-            <img src="../images/florida.jpg" alt="The Florida coastline">
-            <p>Florida, known as the Sunshine State, is almost entirely made up of coastline bordering both the Gulf of
-                Mexico and the Atlantic Ocean. It also is one of the main launching sites for NASA and other operations.
-            </p>
-        </aside>
-    </div>
     <footer>
-        <p>
-            &copy;2025 Bryan Singer Clermont, Florida
-        </p>
+        <p>&copy;2025 White Water Rafting Company | Bryan Singer</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-logo.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta-logo.svg" alt="Instagram Icon">
+            </a>
+        </nav>
     </footer>
 </body>
 

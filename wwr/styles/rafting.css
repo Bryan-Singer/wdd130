@@ -181,6 +181,32 @@ h1, h2 {
     padding: 16px;
 }
 
+#adventure form {
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+
+#adventure label {
+    font-weight: 1000;
+}
+
+#adventure button {
+    background-color: var(--accent1-color);
+    color: #eee;
+    padding: 10px 24px;
+    margin: 10px 25%;
+    border-radius: 8px;
+    border: 1px solid #5555;
+    width: 50%;
+}
+
+#adventure button:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    color: #000;
+}
+
 #images {
     display: grid;
     justify-content: space-around;

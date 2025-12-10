@@ -35,51 +35,59 @@
                 </p>
             </article>
         </div>
-        <section id="history">
-            <h2>History</h2>
-            <img src="images/history-water-rafting.jpg" alt="Here we see the history of white water rafting.">
-            <div class="body1">
-                <p class="one">The WWRC found it's home in a nook between the world you call earth and the space between
-                    spaces several hundred years ago. It wasn't until recently we were able to create tunnels to other
-                    realities safely for long enough that we could open our doors to you and allow other dimensional
-                    guests experience just what the multiverse has to offer.</p>
-                <p class="two">Pictured here, a group of the seventh test run of the Halley's Comet Circuit enjoy the
-                    monochrome sights and low gravity thrill of with none of the atmosphere. It was tests like these
-                    that
-                    paved the road for our 3,427th test to be the first succesful run of an interstellar body. Due to
-                    the
-                    laws of time between dimensions, we honor their sacrifice everyday.</p>
-            </div>
-        </section>
-        <section id="adventure">
-            <h2>Adventure Awaits You!</h2>
-            <div id="images">
-                <figure>
-                    <img src="images/adventure3-water-rafting.jpg" alt="none">
-                    <figcaption>Careen off terrifying heights on the smallest planet ever</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure1-water-rafting.jpg" alt="none">
-                    <figcaption>Travel between the tiles of a giants floor</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure4-water-rafting.jpg" alt="none">
-                    <figcaption>Work as a team to escape the terrible heat of KELT-9b</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure2-water-rafting.jpg" alt="none">
-                    <figcaption>Escape to lands lost and found and lost again</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/adventure5-water-rafting.jpg" alt="none">
-                    <figcaption>Remember your past in the time-locked labrinth of Cygnus X-1</figcaption>
-                </figure>
-            </div>
+        <div class="submit">
             <form>
-                <label>Heed the call to action...</label>
-                <button type="submit" formaction="trips.html">Find Out More HERE!</button>
+                <div class="form-item action">
+                    <label for="action">Don't want to sign up for any newsletter?</label>
+                    <button type="submit" formaction="trips.html">Begin Your Adventure Today!</button>
+                </div>
             </form>
-        </section>
+            <form>
+                <div class="form-item title">
+                    <label for="title">Sign up for our newsletter here</label>
+                </div>
+                <div class="form-item column2">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Bryan Bob" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="guy@email.com" required>
+                </div>
+
+                <div class="form-item column2 rows">
+                    <label class="purpose">Message Purpose</label>
+                    <div class="selections">
+                        <div id="one">
+                            <input type="radio" id="inquiry" name="purpose" value="General Inquiry">
+                            <label for="inquiry">General Inquiry</label>
+                        </div>
+                        <div id="two">
+                            <input type="radio" id="question" name="purpose" value="Reservation Question">
+                            <label for="question">Reservation Question</label>
+                        </div>
+                        <div id="three">
+                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item textarea">
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="2" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </div>
+
+                <button type="submit">Get In Touch</button>
+
+            </form>
+        </div>
     </main>
 
     <footer>

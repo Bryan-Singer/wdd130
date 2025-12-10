@@ -40,51 +40,48 @@
             </div>
 
             <form>
-
-                <div id="query">
-
-                    <div class="form-item column2">
-                        <label for="fullname">Name</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Bryan Bob" required>
-                    </div>
-
-                    <div class="form-item column2">
-                        <label for="useremail">Email</label>
-                        <input type="email" id="useremail" name="useremail" placeholder="guy@email.com" required>
-                    </div>
-
-                    <div class="form-item column2 rows">
-                        <p>Message Purpose</p>
-                        <div class="selections">
-                            <div id="one">
-                                <input type="radio" id="inquiry" name="purpose" value="General Inquiry">
-                                <label for="inquiry">General Inquiry</label>
-                            </div>
-                            <div id="two">
-                                <input type="radio" id="question" name="purpose" value="Reservation Question">
-                                <label for="question">Reservation Question</label>
-                            </div>
-                            <div id="three">
-                                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                                <label for="suggestion">Website Suggestion</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-item textarea">
-                        <label for="feedback">Message</label>
-                        <textarea id="feedback" name="feedback" rows="2" placeholder="Type here"></textarea>
-                    </div>
-
-                    <div class="form-item column1">
-                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                    </div>
-
-                    <button type="submit">Get In Touch</button>
-
+                <div class="form-item title">
+                    <label for="title">Sign up for our newsletter here</label>
+                </div>
+                <div class="form-item column2">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Bryan Bob" required>
                 </div>
 
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="guy@email.com" required>
+                </div>
+
+                <div class="form-item column2 rows">
+                    <label for="purpose">Message Purpose</label>
+                    <div class="selections">
+                        <div id="one">
+                            <input type="radio" id="inquiry" name="purpose" value="General Inquiry">
+                            <label for="inquiry">General Inquiry</label>
+                        </div>
+                        <div id="two">
+                            <input type="radio" id="question" name="purpose" value="Reservation Question">
+                            <label for="question">Reservation Question</label>
+                        </div>
+                        <div id="three">
+                            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item textarea">
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="2" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </div>
+
+                <button type="submit">Get In Touch</button>
             </form>
 
         </div>

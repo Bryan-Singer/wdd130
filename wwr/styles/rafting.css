@@ -104,13 +104,13 @@ h1, h2 {
     height: 103.2px;
 }
 
-.hero button {
+/* .hero button {
     background-color: var(--accent1-color);
     color: #eee;
     padding: 10px 24px;
     border-radius: 8px;
     border: 1px solid #5555;
-}
+} */
 
 #history {
     position: relative;
@@ -191,7 +191,7 @@ h1, h2 {
     font-weight: 1000;
 }
 
-#adventure button {
+/* #adventure button {
     background-color: var(--accent1-color);
     color: #eee;
     padding: 10px 24px;
@@ -199,7 +199,7 @@ h1, h2 {
     border-radius: 8px;
     border: 1px solid #5555;
     width: 50%;
-}
+} */
 
 #adventure button:hover {
     background-color: var(--secondary-color);
@@ -255,7 +255,9 @@ figcaption {
 }
 
 .submit {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto qfr;
+    grid-template-rows: 6rem auto;
 }
 
 .submit .map {
@@ -269,46 +271,22 @@ figcaption {
     height: 100%;
 }
 
+label, input, form, .form-item, .selections, #one, #two, #three, .action {
+    background-color: var(--secondary-color);
+}
 
-form {
+form, .submit form {
     width: 50%;
     margin: 0 auto;
-    padding: 1rem;
-    padding-left: 0;
-    padding-right: 2.5rem;
+    padding: 1rem 0;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
-    background-color: #eee;
     font-size: .75rem;
-}
-
-.hero form {
-    position: absolute;
-    background-color: var(--accent2-color);
-    padding: 1rem;
-    width: 25%;
-    bottom: 10px;
-    right: 15px;
-    text-align: center;
-}
-
-.hero form label {
-    background-color: transparent;
-}
-
-.hero button:hover {
-    background-color: var(--secondary-color);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
-    color: #000;
-}
-
-#query {
-    margin-left: 2rem;
-    align-content: space-around;
 }
 
 .form-item {
     display: grid;
+    align-items: center;
 }
 
 .form-item p {
@@ -317,6 +295,15 @@ form {
     padding: 0;
     align-content: center;
     text-align: left;
+}
+
+.action {
+    font-weight: 800;
+    width: 100%;
+}
+
+.title {
+    font-weight: 800;
 }
 
 .column1 {
@@ -329,25 +316,65 @@ form {
     margin: 0.2rem 0;
 }
 
-.selections {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-content: space-around;
+.hero form {
+    position: absolute;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+    width: 25%;
+    bottom: 10px;
+    right: 15px;
+    text-align: center;
 }
 
 label {
-    text-align: left;
+    text-align: center;
     grid-column: 1;
 }
 
 .textarea label {
     text-align: left;
+    margin-left: 2rem;
+}
+
+input, textarea {
+    background-color: var(--accent2-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    margin: 0 1.5rem;
 }
 
 button {
-    width: 100%;
+    background-color: var(--accent1-color);
+    color: #eee;
+    padding: 10px 24px;
+    margin: 10px 25%;
+    border-radius: 8px;
+    border: 1px solid #5555;
+    width: 50%;
 }
+
+button:hover {
+    background-color: var(--primary-color);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    color: #000;
+}
+
+#query {
+    margin-left: 2rem;
+    align-content: space-around;
+}
+
+.hero form label {
+    background-color: transparent;
+}
+
+.selections {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+}
+
 
 footer {
     display: flex;
@@ -389,14 +416,14 @@ footer p {
     padding: 8px;
 }
 
-.trips button {
+/* .trips button {
     background-color: var(--accent1-color);
     color: #eee;
     padding: 10px 24px;
     margin: 0;
     border-radius: 8px;
     border: 1px solid #5555;
-}
+} */
 
 .table {
     margin: 8px 4px;

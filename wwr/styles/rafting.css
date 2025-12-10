@@ -272,7 +272,7 @@ form {
 
 .hero button:hover {
     background-color: var(--secondary-color);
-    box-shadow: 0 8px 16px 0 rgba(0 0 0 0.6);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
     color: #000;
 }
 
